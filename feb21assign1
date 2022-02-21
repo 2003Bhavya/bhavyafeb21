@@ -1,0 +1,13 @@
+n=4
+count=0
+for i in range(n):
+    for j in range(n):
+        print(chr(65 + count),end=" ")
+        count +=1
+    print()
+    
+output
+A B C D
+E F G H 
+I J K L
+M N O P
